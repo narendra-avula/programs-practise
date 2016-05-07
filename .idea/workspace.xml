@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="990b0161-db55-4043-98f9-a3d129672d51" name="Default" comment="added test python file and folder">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webdesign/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codeeval/mersenne_prime.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codeeval/mersenne_prime.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test-programs/narendra.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codeeval/panacea_truth_or_lie.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codeeval/panacea_truth_or_lie.txt" />
-      <change type="DELETED" beforePath="E:\Narendra\programs\programs-practise\HackerEarth\.idea\HackerEarth.iml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Narendra\programs\programs-practise\HackerEarth\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Narendra\programs\programs-practise\HackerEarth\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Narendra\programs\programs-practise\HackerEarth\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Narendra\programs\programs-practise\HackerEarth\.idea\workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Narendra\programs\programs-practise\HackerRank\.idea\HackerRank.iml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Narendra\programs\programs-practise\HackerRank\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Narendra\programs\programs-practise\HackerRank\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Narendra\programs\programs-practise\HackerRank\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Narendra\programs\programs-practise\HackerRank\.idea\workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Narendra\programs\programs-practise\codeeval\.idea\code_eval.iml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Narendra\programs\programs-practise\codeeval\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Narendra\programs\programs-practise\codeeval\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Narendra\programs\programs-practise\codeeval\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\Narendra\programs\programs-practise\codeeval\.idea\workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="990b0161-db55-4043-98f9-a3d129672d51" name="Default" comment="added test python file and folder" />
     <list id="e1e6c4ab-6340-4c71-bfd1-e6f432a982d9" name="New changelist" comment="New changelist" />
     <ignored path="programs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -481,7 +457,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
