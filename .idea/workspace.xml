@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="990b0161-db55-4043-98f9-a3d129672d51" name="Default" comment="added test python file and folder">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codechef/.idea/codechef.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codechef/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codechef/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codechef/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codechef/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="E:\Narendra\programs\programs-practise\codechef\.idea\codechef.iml" afterPath="" />
+      <change type="DELETED" beforePath="E:\Narendra\programs\programs-practise\codechef\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\Narendra\programs\programs-practise\codechef\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\Narendra\programs\programs-practise\codechef\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\Narendra\programs\programs-practise\codechef\.idea\workspace.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="e1e6c4ab-6340-4c71-bfd1-e6f432a982d9" name="New changelist" comment="New changelist" />
     <ignored path="programs.iws" />
@@ -629,14 +630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3797251">
           <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codechef/easy/GCD2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
