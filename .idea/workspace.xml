@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c9e8d9e-7661-4ad9-9c3c-3bc2e15deab6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Notes/Git Notes" afterPath="$PROJECT_DIR$/Notes/Git Notes" />
-    </list>
+    <list default="true" id="5c9e8d9e-7661-4ad9-9c3c-3bc2e15deab6" name="Default" comment="" />
     <ignored path="programs-practise.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
