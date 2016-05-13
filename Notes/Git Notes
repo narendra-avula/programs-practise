@@ -27,3 +27,192 @@ git add .gitignore
 git commit -m "message"
 
 ------------------------------------------
+@gabssnake Notes
+
+// in folder, to setup repository
+git init
+
+// first time setup
+git config --global color.ui true
+git config --global user.name  "name"
+git config --global user.email "name@mail.com"
+
+
+
+// push current branch only by default
+git --global push.default current
+
+// push all relevant branches by default
+git --global push.default matching
+
+
+// list remote branches
+git branch -r
+
+// see differences between local and remote
+git diff master origin/master
+
+
+
+// see if keychain is installed
+git credential-osxkeychain
+
+// use keychain with git
+git config --global credential.helper osxkeychain
+
+
+// what has been changed
+git status
+
+// add to stage area
+git add file.txt
+git add --all
+git add folder1  			// add all content
+git add folder1/*.tx­t 		// add all .txt in folder
+git add "*.txt"				// all all txt files in the project
+
+// stage all changed files
+// including not tracked before
+git add .
+
+// stage all changed files, includding deletes!
+// doesn't include not tracked
+git add -u
+
+
+
+// ignore file
+git update-index --assume-unchanged path/to/file.txt
+
+// unignore file
+git update-index --no-assume-unchanged path/to/file.txt
+
+
+
+
+// discard all changes since last commit
+git checkout -- *
+
+// discard changes to this file since last commit
+git checkout -- file.txt
+
+
+// save the changes
+git commit -m "my commit comment goes here"
+
+// connect to a server
+// repo address = "git@github.com:gabssnake/try_git.git"
+// repo name = try_git.git
+
+git remote add origin git@github.com:gabssnake/try_git.git
+
+
+// romev bad server
+git remote rm origin
+
+
+// push all branches for first time
+git push -u origin --all
+
+
+
+// push local commits to server
+// -u tells it to remember parameters
+// so next time is just: git push
+// origin = name of remote
+// master = name of branch
+git push -u origin master
+
+// download stuffgit push
+git pull origin master
+
+// see what's different
+git diff HEAD			// differences with latest commit
+git digg --staged		// differences with staged stuff
+
+// unstage files
+git reset­ octof­amily/octo­dog.txt
+
+
+// create banch "clean_up"
+git branch clean_up
+
+git branch plugin
+
+// show branches
+git branch
+
+// switch to branch
+git checkout clean_up		// switch to clean_up
+git checkout master			// switch to master
+
+
+//remove remote branch
+git push origin :newfeature
+
+
+// remove things
+git rm '*.tx­t'
+
+// merge clean_up branch with current branch (master)
+git merge clean_up
+
+// delete branch
+git branch -d clean_up
+
+
+
+
+
+
+// help
+git help <command>
+
+// copy repository from server
+git clone
+
+// last commits
+git log
+git log oneline
+git log -p //show details
+
+git branch		// create branch
+git checkout	// go to that branch
+git checkout	// to switch back to main
+git merge		// join the branches
+
+HEAD // is the current active branch
+
+git remote add		// add server
+git push			// publish local commits
+git fetch			// get commits from server
+git merge			// to merge downloaded with HEAD
+git pull			// download and merge changes
+
+git add -p 		// add part of a file
+
+/**** dont use on stuff commited to server */
+git commit --amend		// undo last command
+git rebase
+/**** dont use on stuff commited to server */
+
+git revert		// revert a commit, by creating a new one
+
+// garbage collector
+git gc
+git gc --aggressive
+
+
+
+
+// editeur chez thomas
+mingw32
+
+
+---------
+
+// mac
+http://www.git-tower.com/
+
+// windows
+http://code.google.com/p/tortoisegit/
