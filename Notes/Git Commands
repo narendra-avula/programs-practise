@@ -1,0 +1,95 @@
+Git-Specific Commands
+Since Git was designed with a big project like Linux in mind, there are a lot of Git commands. However,
+to use the basics of Git, you’ll only need to know a few terms. They all begin the same way, with the word “git.”
+---------------------
+git init: Initializes a new Git repository. Until you run this command inside a repository or directory, it’s just a regular folder. Only after you input this does it accept further Git commands.
+
+git config: Short for “configure,” this is most useful when you’re setting up Git for the first time.1
+
+git help: Forgot a command? Type this into the command line to bring up the 21 most common git commands. You can also be more specific and type “git help init” or another term to figure out how to use and configure a specific git command.
+
+git status: Check the status of your repository. See which files are inside it, which changes still need to be committed, and which branch of the repository you’re currently working on.
+
+git add: This does not add new files to your repository. Instead, it brings new files to Git’s attention. After you add files, they’re included in Git’s “snapshots” of the repository.
+
+git commit: Git’s most important command. After you make any sort of change, you input this in order to take a “snapshot” of the repository. Usually it goes git commit -m “Message here.” The -m indicates that the following section of the command should be read as a message.
+
+git branch: Working with multiple collaborators and want to make changes on your own? This command will let you build a new branch, or timeline of commits, of changes and file additions that are completely your own. Your title goes after the command. If you wanted a new branch called “cats,” you’d type git branch cats.
+
+git checkout: Literally allows you to “check out” a repository that you are not currently inside. This is a navigational command that lets you move to the repository you want to check. You can use this command as git checkout master to look at the master branch, or git checkout cats to look at another branch.
+
+git merge: When you’re done working on a branch, you can merge your changes back to the master branch, which is visible to all collaborators. git merge cats would take all the changes you made to the “cats” branch and add them to the master.
+
+git push: If you’re working on your local computer, and want your commits to be visible online on GitHub as well, you “push” the changes up to GitHub with this command.
+
+git pull: If you’re working on your local computer and want the most up-to-date version of your repository to work with, you “pull” the changes down from GitHub with this command.
+-------------------------------
+
+
+Now it’s time to go over to the command line. On Windows, that means starting the Git Bash app you just installed, and on OS X, it’s regular old Terminal. It’s time to introduce yourself to Git. Type in the following code:
+
+git config --global user.name "Your Name Here"
+
+Of course, you’ll need to replace “Your Name Here” with your own name in quotations. It can be your legal name, your online handle, anything. Git doesn’t care, it just needs to know to whom to credit commits and future projects.
+
+Next, tell it your email and make sure it’s the same email you used when you signed up for a GitHub.com account just a moment ago. Do it like this:
+
+git config --global user.email "your_email@youremail.com"
+
+That’s all you need to do to get started using Git on your computer. However, since you did set up a GitHub.com account, it’s likely you don’t just want to manage your project locally, but also online. If you want you can also set up Git so it doesn’t ask you to log in to your GitHub.com account every time you want to talk to it. For the purposes of this tutorial, it isn’t a big deal since we’ll only be talking to it once.
+
+----------------------------------------------
+
+Congratulations, you are officially a Git user! You can create repos and commit changes with the best of them. This is where most beginner tutorials stop.
+
+However, you may have this nagging feeling that you still don’t feel like an expert. Sure you managed to follow through a few steps, but are you ready to be out on your own? I certainly didn’t.
+
+In order to get more comfortable with Git, let’s walk through a fictional workflow while using a little of everything we’ve already learned. You are now a worker at 123 Web Design, where you’re building a new website for Jimmy’s Ice Cream Shop along with a few of your coworkers.
+
+You were a little nervous when your boss told you that you’d be participating in the Jimmy’s Ice Cream Shop webpage redesign project. After all, you’re not a programmer; you’re a graphic designer. But your boss assured you that anyone can use Git.
+
+You’ve created a new illustrations of an ice cream sundae, and it’s time to add it to the project. You’ve saved them in a folder on your computer that is also called “icecream” to prevent yourself from getting confused.
+
+Open up the Command Line and change directory until you’re inside the icecream folder, where your designs are stored.
+
+cd ~/icecream
+
+Next, initialize Git so you can start using Git commands inside the folder. The folder is now a Git repository.
+
+git init
+
+Wait, this is the right folder, right? Here’s how you check and make sure this is where you stored your design:
+
+git status
+
+And this is what Git will tell you in reply:
+
+# Untracked files:
+#   (use "git add ..." to include in what will be committed)
+
+#
+
+#       chocolate.jpeg
+There they are! Add them to your local Git repository so they’ll be tracked by Git.
+
+git add chocolate.jpeg
+
+Now, take a “snapshot” of the repository as it stands now with the commit command:
+
+git commit -m “Add chocolate.jpeg.”
+
+Great! But your co-workers, hard at work in their own local repositories, can’t see your fantastic new design. That’s because the main project is stored in the company GitHub account (username: 123WebDesign) in the repository called “icecream.”
+
+Since you haven’t connected to the GitHub repo yet, your computer doesn’t even know this exists. So tell your local repository about it:
+
+git remote add origin https://github.com/123WebDesign/icecream.git2
+
+And double check to make sure it knows:
+
+git remote -v
+
+Finally, it’s the moment you’ve been waiting for. Upload that delicious looking sundae up to the project:
+
+git push
+
+Ta da! With all of these tool at hand, it’s clear that Git and the GitHub service aren’t just for programmers.

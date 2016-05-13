@@ -1,0 +1,29 @@
+git branch
+
+git branch -a
+
+git fetch --all
+
+---------------------------------------------
+
+git status
+
+git add .
+
+git pull origin <branch>
+
+git push
+
+git commit -m "message"
+
+-----------------------------------------------
+
+echo '.idea' >> .gitignore
+
+git rm -r --cached .idea
+
+git add .gitignore
+
+git commit -m "message"
+
+------------------------------------------
