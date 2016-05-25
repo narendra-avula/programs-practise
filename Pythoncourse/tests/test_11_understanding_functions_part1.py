@@ -3,7 +3,7 @@ __author__ = 'Kalyan'
 from placeholders import *
 
 notes = '''
-Functions are the basic unit of modularization in python. You use functions to group
+Functions are the basic-programming unit of modularization in python. You use functions to group
 together a meaningful action and use it when you need it.
 
 The feature set of functions in python is richer than every major programming

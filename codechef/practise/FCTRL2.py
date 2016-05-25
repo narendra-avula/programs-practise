@@ -2,7 +2,7 @@ __author__ = 'CustomFurnish'
 '''
 All submissions for this problem are available.
 
-A tutorial for this problem is now available on our blog. Click here to read it.
+A bit-manipulation-tutorial for this problem is now available on our blog. Click here to read it.
 
 You are asked to calculate factorials of some small positive integers.
 Input
