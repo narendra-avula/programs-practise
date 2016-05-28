@@ -1,7 +1,7 @@
 __author__ = 'Kalyan'
 
 notes = '''
-nested functions underlie many advanced features of python. So a basic understanding of this
+nested functions underlie many advanced features of python. So a basic-programming understanding of this
 feature is essential to mastering python.
 
 nested functions are defined in the scope of a function, behave exactly the same except

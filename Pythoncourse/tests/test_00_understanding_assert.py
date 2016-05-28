@@ -2,7 +2,7 @@ __author__ = 'Kalyan'
 
 from placeholders import *
 
-# This lesson introduces the basic assert statement in python
+# This lesson introduces the basic-programming assert statement in python
 
 def test_assert_true():
     #throws assertion error

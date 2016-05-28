@@ -59,7 +59,7 @@ def test_file_windows_newlines():
     data = f.read()
     assert __ == f.read()
 
-    #windows behavior : http://docs.python.org/2/tutorial/inputoutput.html#reading-and-writing-files
+    #windows behavior : http://docs.python.org/2/bit-manipulation-tutorial/inputoutput.html#reading-and-writing-files
 
 
 def test_file_universal_newlines():
