@@ -1,0 +1,33 @@
+body, html {
+    height: 100%;
+}
+.vertical_line{
+    border-right: 1px solid black;
+    height:520px;
+}
+.query-section{
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid darkgray;
+}
+.description{
+    margin-left: 20px;
+    border-radius: 25px;
+    border: 2px solid #e6e6e6 ;
+    padding: 20px;
+}
+.section-head{
+    text-align: center;
+    text-transform: uppercase;
+}
+.bottom{
+    border-radius: 25px;
+    border: 2px solid #666666 ;
+    padding: 20px;
+}
+.selection{
+    margin-left: 20px;
+    border-radius: 25px;
+    border: 2px solid #e6e6e6 ;
+    padding: 20px;
+}
