@@ -1,0 +1,138 @@
+What is Modular Arithmetic?
+
+Modular arithmetic, in the simplest form refers to calculating the remainder of division of two numbers
+A
+A and
+B
+B. For example,
+A
+B
+AB modulo
+M
+M is the remainder of dividing number
+A
+A by
+B
+B. However, this does not restrict it to only this. Modular Arithmetic has a variety of other applications.
+
+Assume one wants to perform the Addition, Subtraction and Multiplication operation of numbers. Sometimes these numbers may be relatively large, and the result of performing the above operations might not fit into standard integer data-types. In such a situation, this number needs to be compressed to a smaller number, such that it fits into the standard data-types. How can one do this compression? The answer is modular arithmetic.
+
+The basic rules of Modular Arithmetic apply over Addition, Subtraction and Multiplication. To perform these calculations over relatively large numbers, the result needs to be calculated Mod a certain number
+M
+M i.e.
+m
+o
+d
+M
+modM. There is no restriction over the value of
+M
+M to be chosen. So, all these operations are performed modulo a certain number
+M
+M.
+
+Addition:
+
+(
+A
++
+B
+)
+%
+M
+(A+B)%M can also be expressed as :
+(
+(
+A
+%
+M
+)
++
+(
+B
+%
+M
+)
+)
+%
+M
+((A%M)+(B%M))%M. Thus, here there is no fear of any value ever crossing the standard integer data types.
+
+Subtraction :
+
+(
+A
+?
+B
+)
+%
+M
+(A?B)%M can also be expressed as:
+(
+(
+A
+%
+M
+)
+?
+(
+B
+%
+M
+)
+)
+%
+M
+((A%M)?(B%M))%M
+Multiplication:
+
+(
+A
+×
+B
+)
+%
+M
+(A×B)%M can also be expressed as:
+(
+(
+A
+%
+M
+)
+×
+(
+B
+%
+M
+)
+)
+%
+M
+((A%M)×(B%M))%M
+
+Division:
+
+(
+A
+/
+B
+)
+%
+M
+(A/B)%M can NOT be expressed as:
+(
+(
+A
+%
+M
+)
+/
+(
+B
+%
+M
+)
+)
+%
+M
+((A%M)/(B%M))%M. The explanation for this is discussed in Multiplicative Modulo Inverse.
