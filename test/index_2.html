@@ -1,0 +1,71 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Foundation | Welcome</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.0.0/css/foundation.min.css" />
+  <link rel="stylesheet" href="base.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.0.0/js/modernizr.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="app.js"></script>
+</head>
+<body>
+
+  <div class="row">
+    <div class="large-12 columns">
+      <h1>Welcome to Foundation</h1>
+      <hr>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="small-2 medium-2 large-2 columns vertical_line">
+      <label>Sort By</label>
+      <div class="query-section">
+        <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Red</label>
+        <br>
+        <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Blue</label>
+      </div>
+    </div>
+    <div class="small-10 medium-10 large-10 columns container">
+      <div class="row">
+        <div class="small-4 medium-4 large-4 columns ">
+          <input id="search" type="search" placeholder="search" required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="small-4 medium-4 large-4 columns ">
+          <span>Result:&nbsp 6 items found</span>
+        </div>
+      </div>
+      <div class="row description" style="margin-top: 25px;">
+          <div class="small-4 medium-4 large-4 columns ">
+                <img src="http:\/\/www.pmbl-ng.com\/images\/about.jpg">
+          </div>
+          <div class="small-8 medium-8 large-8 columns ">
+                <h3 class="section-head">Banking</h3>
+                <p>"Risk and Margin","Portfolio","Collateral","Trading","Billing and reporting"</p>
+                <p>Link <a href="http:\/\/www.accolite.com\/banking-finance">banking-finance</a></p>
+                <p>Likes 25</p>
+                <p>Stars</p>
+          </div>
+        <fieldset>
+          <legend>Description</legend>
+          <p>
+            Accolite's financial services vertical provides solution spanning across Insurance and Banking.
+            Solutions are aimed at simplifying challenges arising due to diversified channels, wide distribution networks,
+            and constantly changing regulations."
+          </p>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.0.0/js/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.0.0/js/foundation.min.js"></script>
+<script>
+  $(document).foundation();
+</script>
+</body>
+</html>
