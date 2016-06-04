@@ -1,0 +1,74 @@
+An array is essentially a collection of elements. These elements can be any value such as a number or a character. The elements of an array are accessed by index.
+
+Consider following array:
+
+enter image description here
+
+This example array arr is of size
+5
+5. Index of any array of size
+N
+N go from
+0
+0 to
+N
+?
+1
+N?1. Any element of the array can be accessed by arr[index]. For instance, in the above array, the value stored at arr[1] is 12.
+
+Array Declaration:
+
+Declaring an array is a bit language specific. Typically, to declare an array, size and type of the array needs to be specified, where size defines the number of elements that can be stored in the array and type defines the type of those elements i.e. either a number or a character or other such datatype. A sample form of declaration would be:
+
+type arr[size]
+A C++ example would be:
+
+int arr[5];
+This is a static array, the other kind is dynamic array, where type is just enough for declaration. In dynamic arrays, size increases as more elements are added to the array.
+
+Array Initialization:
+
+Array can be initialized either at the time of declaration or after that.
+
+Initializing at the time of declaration would be of format:
+
+type arr[size] = {elements}
+C++ example:
+
+int arr[5] = {4, 12, 7, 15, 9};
+Initializing array after declaration can be done by assigning values to each index of array, which is as follows.
+
+ type arr[size]
+ arr[index] = 12
+C++ example:
+
+int arr[5];
+arr[0] = 4;
+arr[1] = 12;
+This is quite naive and not usually used in day to day practice. Instead we read the array elements from STDIN. This is again language specific, so the code snippet to declare an array and reading data from standard input for C++ is shown below and the same for other languages has been populated in the code-editor below.
+
+Processing an Array:
+
+Most basic form of processing is to loop over the array and print all its elements, which can be done as follows.
+
+type arr[size] = {elements}
+for idx from 0 to size
+    print arr[idx]
+C++ example:
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    // Array declaration and initialization
+    int arr[5] = {4, 12, 7, 15, 9};
+    // Iterate over the array
+    for(int idx=0; idx<5; idx++)
+    {
+        // Print out each element in a new line
+        cout << arr[idx] << endl;
+    }
+    return 0;
+}
+A practice problem would be a great way to apply the above concepts and boost confidence.
