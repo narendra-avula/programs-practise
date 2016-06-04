@@ -9,8 +9,8 @@ cba
 3 b
 '''
 s = []
-for _ in range(int(input())):
-    s.append(input())
+for _ in range(int(raw_input())):
+    s.append(raw_input())
 
 for i in s:
     if i[::-1] in s:
