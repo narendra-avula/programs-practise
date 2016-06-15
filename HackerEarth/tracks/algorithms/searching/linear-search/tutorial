@@ -1,0 +1,40 @@
+Linear Search is generally used on a collections of items. It relies on the technique of traversing a list from start
+
+to end exploring properties of all elements found on the way.
+
+For example, consider an array of integers of size
+
+N. Now it is required to find and print the position of all the elements with value
+
+x. Here, linear search is simply based on the idea of matching each element from the start to the end of the list with
+
+the integer
+
+x, and then printing the position of the element if the condition is `True'.
+
+The pseudo code for the above example is as follows :
+
+for(start to end of array)
+{
+    if (current_element equals to 5)
+    {
+        print (current_index);
+    }
+}
+For example, consider the following image:
+
+enter image description here
+
+Consider one wants of find all the positions of the occurrence of number
+
+7 in this array. For this, every element in the array from start to end, that is from index
+
+1 to index
+
+10 shall be visited once and compared with number
+
+7, in order to check whether a match is found or not.
+
+The Time Complexity of Linear Search is
+
+O(N) as we visit each element of the array exactly once.
