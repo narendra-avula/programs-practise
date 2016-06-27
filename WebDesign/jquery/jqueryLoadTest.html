@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("p").bind("click", function(){
+                $( "<p>This is a click Event</p>").appendTo( "body" );
+            });
+
+            $("p").bind("dblclick", function(){
+                $( "<p>This is a double-click Event</p>"  ).appendTo( "body" );
+            });
+        });
+    </script>
+</head>
+<body>
+<p>
+    Click me!!
+</p>
+</body>
+</html>
