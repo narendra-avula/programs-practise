@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#dont-copy-image").bind("contextmenu", function(e){
+               return false;
+            });
+        });
+    </script>
+</head>
+<body>
+    <p id="text">Hello Narendra!!!!!!!!</p>
+    <div id="dont-copy-image">
+        <img src="https://www.google.co.in/logos/doodles/2016/r-d-burmans-77th-birthday-4882888807940096.2-hp.png">
+    </div>
+</body>
+</html>
