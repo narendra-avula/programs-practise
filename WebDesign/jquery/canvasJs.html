@@ -1,10 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js"></script>
+    <script type="text/javascript">
+        window.onload = function () {
+            var chart = new CanvasJS.Chart("chartContainer",
+                    {
+                        animationEnabled: true,
+                        title:{
+                            text: "Chart with Labels on X Axis"
+                        },
+                        data: [
+                            {
+                                type: "column", //change type to bar, line, area, pie, etc
+                                dataPoints: [
+                                    { label: "Narendra", y: 18 },
+                                    { label: "Mrudula", y: 100 },
+                                    { label: "Anil",  y: 40 },
+                                    { label: "Pavan",  y: 34 },
+                                    { label: "Potta",  y: 24 }
+                                ]
+                            }
+                        ]
+                    });
+
+            chart.render();
+        }
+    </script>
+    <script type="text/javascript" src="/assets/script/canvasjs.min.js"></script>
 </head>
 <body>
-
+    <div id="chartContainer" style="height: 600px; width: 50%;"></div>
 </body>
+
 </html>

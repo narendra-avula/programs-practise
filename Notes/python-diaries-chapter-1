@@ -1,0 +1,148 @@
+This series is the result of my love for PYTHON and now I want to share this love with all of you. I will introduce you to mystical and charismatic python.
+Yeah! mystical and charismatic..
+Don't you believe me??
+Let me show you then...
+
+To print in python
+
+print 'Hello, World!'
+Output --> Hello, World!
+Comments
+
+'''This is a comment.'''
+# This is also a comment
+hash is used for single line comment and triple quotes for multiple lines
+
+To input an integer in python
+
+n=input()
+To input String
+
+a=raw_input()
+To create an empty array(list in python)
+
+arr=[]
+To assign a value to all elements of an array
+
+Let us say you wanna make an array of size 10 with each element equal to 0 ie. same value to all
+
+arr=[0]*10
+output --> [0,0,0,0,0,0,0,0,0,0]
+To add item in array(list)
+
+arr.append(1)
+arr.append(2)
+print arr
+output --> [1,2]
+while loop syntax
+
+i=0
+l=10
+while i<l:
+    print i
+    i=i+1
+for-in loop syntax
+
+arr=[1,2,3,4]
+
+for item in arr:
+    print item
+#output will be each array item printed in separate line
+you can use any thing instead of item like a,b,c it,key ie.literally anything except keywords and reserved words
+
+To print print statements in same line, just add a comma after your text
+
+print 'Next print statement after this will be printed in same line',
+print "I'm in first line"
+Output-->Next print statement after this will be printed in same line I'm in first line'
+Variant of for in loop.
+
+If you want to loop from i=start to end let us say 1 to 10
+
+for i in range(1,11):
+    print i
+in range(start,end)--> *start* is inclusive and end is exclusive**, read like this [start,end)
+
+If you don't pass an argument, default value--> start = 0,end=len(string)
+
+if you want to jump by n then range(start,end,jump=n), default value --> jump=0
+
+To sort an array(both integer and string)
+
+arr=[7,6,4,9,3,2,8,1,5]
+arr1=sorted(arr)
+arr2=sorted(arr,reverse=True)
+# output arr1 --> [1,2,3,4,5,6,7,8,9]
+#output arr2 --> [9,8,7,6,5,4,3,2,1]
+NOTE --> In Python, when using true-false, remember to CAPITALIZE FIRST LETTER ie. *True and *False**
+
+logical operators just type name in english ie. && --> and , || --> or , ! --> not
+bitwise operators are same as C ie. & , | , ^(XOR)
+all arithmetic operators are also same as in C
+
+if-else in python
+
+a=5
+
+if a==5:
+    print "Sweet Mother of Mercy!"
+
+elif a==6:
+    print "It's a SIX"
+
+elif a==4:
+    print "It's a FOUR"
+
+else:
+    print "Not an interesting number"
+Output --> Sweet Mother of Mercy!
+========Various types of Inputs========
+
+If you have to input a variable
+
+n=input()
+If you have to input a character or string (including spaces)
+
+a=raw_input()
+If you want to store words in an array, for eg. if the line is --> save this line in an array
+
+arr=map(str,raw_input().split())
+output --> ['save','this','line','in','an','array']
+If you want to store integers in an array for eg. --> 5 7 3 2 62 7 8
+
+arr=map(int,raw_input().split())
+#output --> [5,7,3,2,62,7,8]
+If you want to input a line/word and store each character seperately eg.--> divyanshu
+
+a=list(raw_input())
+#output --> ['d','i','v','y','a','n','s','h','u']
+To acces an particular index in array
+
+print a[0]
+print a[1]
+ouput--> 'd'
+output --> 'i'
+similarly for other indices
+Suppose you input an integer as a string, now you want to convert it to integer use this
+
+a='5'
+a=int(a)
+To convert an integer to string
+
+b=5
+b=str(5)
+To join all items of an array
+
+arr=['d','i','v','y','a','n','s','h','u']
+c=''.join(arr)
+output will be--> 'divyanshu'
+To reverse an array or string
+
+a='example'
+arr=['d','i','v','y','a','n','s','h','u']
+b=a[::-1]
+arr=arr[::-1]
+output --> 'elpmaxe'
+similarly for array (feeling too tired to type ;-) )
+That's it for now......
+Next article will be posted soon....stay tuned !

@@ -32,10 +32,9 @@ while True:
     if user_input < 0 or user_input > 30:
         print 'Enter correct input'
         continue
-    elif user_input == 0:
-        sys.exit()
     else:
         break
+
 url = list_links[user_input - 1]
 sc = requests.get(url)
 soup = BeautifulSoup(sc.text, "html5lib")
