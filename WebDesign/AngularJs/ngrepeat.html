@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AngularJs First Program</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+</head>
+<body>
+    <!--<div ng-app="" ng-init="names=['naredra', 1, 'ssaad', 'adsfsa', 'sdfad']">-->
+        <!--<p>Loop with NG-Repeat</p>-->
+        <!--<ul>-->
+            <!--<li ng-repeat="x in names">-->
+                <!--{{ x }}-->
+            <!--</li>-->
+        <!--</ul>-->
+    <!--</div>-->
+
+    <div ng-app="" ng-init="names = [
+        {name:'narendra', study:'BTech'},
+        {name:'Potta', study:'8th class'}
+    ]">
+        <ul>
+            <li ng-repeat="x in names">
+                {{ x.name + ','+ x.study }}
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
