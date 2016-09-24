@@ -1,0 +1,85 @@
+20/09/2016
+1. revealing model pattern in js
+2. IIFE
+
+Controller
+1. ng-controller
+2. controllers are functions
+
+Multiple controllers
+complex objects
+next contollers
+-----------------------
+
+HTTP Service
+get, post, put, delete
+
+---------------
+Modules
+1. create module
+2. register module
+3. use that module
+=======================
+21/09/2016
+Directives and views
+
+scope provides the model
+model does not touch html
+data binding moves model data to view
+directives allow for indirect model view interaction
+
+-------------------
+Filters
+Basic format :  expression:filterName:parameter
+===========================
+23/09/2016
+ng-show and ng-hide
+ng-include
+
+Binding
+Model
+Event
+Display
+
+Services:
+
+Controllers setup the model
+view consumes the model
+directives are an intermediary
+
+setTimeout and setInterval
+======================
+24/09/2016
+services
+log
+ui services
+
+custom services
+- create reusable logic
+- create shared data
+- manage complexity
+GitHub Service:
+===============
+Routing
+- routing based on URL
+- routing engine captures request
+- routing rules render a response
+
+-----
+- depends on another module: angular-route.js
+- configure rules into $routeProvider
+- setup a layout view
+
+-----
+- create route
+- create template
+- create controller
+- have search navigate to new route
+
+
+
+
+
+
+
+

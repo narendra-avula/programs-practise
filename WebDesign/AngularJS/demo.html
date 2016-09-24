@@ -278,23 +278,118 @@
 
 
     <!-- Video 13 custom-filter -->
+    <!--<div ng-controller="myController">-->
+        <!--<table>-->
+            <!--<thead>-->
+            <!--<tr>-->
+                <!--<th>Name</th>-->
+                <!--<th>Gender</th>-->
+                <!--<th>Salary</th>-->
+            <!--</tr>-->
+            <!--</thead>-->
+            <!--<tbody>-->
+            <!--<tr ng-repeat="employee in employees">-->
+                <!--<td> {{ employee.name }} </td>-->
+                <!--<td> {{ employee.gender| genderFilter }} </td>-->
+                <!--<td> {{ employee.salary  }} </td>-->
+            <!--</tr>-->
+            <!--</tbody>-->
+        <!--</table>-->
+    <!--</div>-->
+
+
+    <!-- Video 14 Show and Hide -->
+    <!--<div ng-controller="myController">-->
+        <!--<input type="checkbox" ng-model="hideSalary" />Hide Salary-->
+        <!--<br /><br />-->
+        <!--<table>-->
+            <!--<thead>-->
+                <!--<tr>-->
+                    <!--<th>Name</th>-->
+                    <!--<th>Gender</th>-->
+                    <!--<th>City</th>-->
+                    <!--&lt;!&ndash;<th ng-hide="hideSalary">Salary</th>&ndash;&gt;-->
+                    <!--<th ng-show="!hideSalary">Salary</th>-->
+                <!--</tr>-->
+            <!--</thead>-->
+            <!--<tbody>-->
+                <!--<tr ng-repeat="employee in employees">-->
+                    <!--<td> {{ employee.name }} </td>-->
+                    <!--<td> {{ employee.gender}} </td>-->
+                    <!--<td> {{ employee.city}} </td>-->
+                    <!--&lt;!&ndash;<td ng-hide="hideSalary"> {{ employee.salary  }} </td>&ndash;&gt;-->
+                    <!--<td ng-show="!hideSalary"> {{ employee.salary  }} </td>-->
+                <!--</tr>-->
+            <!--</tbody>-->
+            <!--</tbody>-->
+        <!--</table>-->
+        <!--<input type="checkbox" ng-model="hideSalary" />Hide Salary-->
+        <!--<br /><br />-->
+        <!--<table>-->
+            <!--<thead>-->
+                <!--<tr>-->
+                    <!--<th>Name</th>-->
+                    <!--<th>Gender</th>-->
+                    <!--<th>City</th>-->
+                    <!--<th ng-hide="hideSalary">Salary</th>-->
+                    <!--<th ng-show="hideSalary"> Salary </th>-->
+                <!--</tr>-->
+            <!--</thead>-->
+            <!--<tbody>-->
+                <!--<tr ng-repeat="employee in employees">-->
+                    <!--<td> {{ employee.name }} </td>-->
+                    <!--<td> {{ employee.gender}} </td>-->
+                    <!--<td> {{ employee.city}} </td>-->
+                    <!--<td ng-hide="hideSalary"> {{ employee.salary  }} </td>-->
+                    <!--<td ng-show="hideSalary"> ##### </td>-->
+                <!--</tr>-->
+            <!--</tbody>-->
+            <!--</tbody>-->
+        <!--</table>-->
+    <!--</div>-->
+
+    <!-- Video 15 NG INIT -->
+    <!--<div ng-init="employees = [-->
+                    <!--{ name: 'Ben', gender: 'Male', city: 'London' },-->
+                    <!--{ name: 'Sara', gender: 'Female', city: 'Chennai' },-->
+                    <!--{ name: 'Mark', gender: 'Male', city: 'Chicago' },-->
+                    <!--{ name: 'Pam', gender: 'Female', city: 'London' },-->
+                    <!--{ name: 'Todd', gender: 'Male', city: 'Chennai' }-->
+                <!--]">-->
+        <!--<table>-->
+            <!--<thead>-->
+            <!--<tr>-->
+                <!--<th>Name</th>-->
+                <!--<th>Gender</th>-->
+                <!--<th>City</th>-->
+            <!--</tr>-->
+            <!--</thead>-->
+            <!--<tbody>-->
+            <!--<tr ng-repeat="employee in employees">-->
+                <!--<td> {{ employee.name }} </td>-->
+                <!--<td> {{ employee.gender }} </td>-->
+                <!--<td> {{ employee.city  }} </td>-->
+            <!--</tr>-->
+            <!--</tbody>-->
+        <!--</table>-->
+    <!--</div>-->
+
+    <!-- Video 16 include -->
     <div ng-controller="myController">
-        <table>
-            <thead>
-            <tr>
-                <th>Name</th>
-                <th>Gender</th>
-                <th>Salary</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr ng-repeat="employee in employees">
-                <td> {{ employee.name }} </td>
-                <td> {{ employee.gender| genderFilter }} </td>
-                <td> {{ employee.salary  }} </td>
-            </tr>
-            </tbody>
-        </table>
+        <label>
+            Select View :
+            <select ng-model="employeeView">
+                <option value="">Select Format</option>
+                <option value="employeeTable.html">Table Format</option>
+                <option value="employeeList.html">List Format</option>
+            </select>
+        </label>
+        <br>
+        <br>
+        <div ng-include="employeeView"></div>
+
+        <!--<div ng-include=" 'employeeTable.html' "></div>-->
+        <!--<div ng-include=" 'employeeList.html' "></div>-->
     </div>
 
 
