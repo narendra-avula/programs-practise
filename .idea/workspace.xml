@@ -2,69 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5ade902-025c-45d7-91fe-434cecaf6eed" name="Default" comment="adding angularjs">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coursera/html/1_1_code/1_1_code/myk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coursera/html/1_1_code/__MACOSX/._1_1_code" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coursera/html/1_1_code/__MACOSX/1_1_code/._myk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebDesign/AngularJS/employeeList.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebDesign/AngularJS/employeeTable.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebDesign/angularSearch/.gitattributes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebDesign/angularSearch/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebDesign/angularSearch/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebDesign/angularSearch/css/site.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebDesign/angularSearch/data.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebDesign/angularSearch/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebDesign/angularSearch/js/site.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebDesign/menuSearch/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebDesign/menuSearch/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebDesign/menuSearch/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coursera/html/1_1_code/1_1_code/aboutme.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coursera/html/1_1_code/1_1_code/contact.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coursera/html/1_1_code/1_1_code/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coursera/html/1_1_code/__MACOSX/1_1_code/._aboutme.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coursera/html/1_1_code/__MACOSX/1_1_code/._contact.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coursera/html/1_1_code/__MACOSX/1_1_code/._index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pluralsight/AngularJS/MainController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pluralsight/AngularJS/UserController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pluralsight/AngularJS/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pluralsight/AngularJS/github.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pluralsight/AngularJS/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pluralsight/AngularJS/main.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pluralsight/AngularJS/notes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pluralsight/AngularJS/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pluralsight/AngularJS/user.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pluralsight/AngularJS/userDetails.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pluralsight/AngularJS_copy/MainController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pluralsight/AngularJS_copy/UserController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pluralsight/AngularJS_copy/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pluralsight/AngularJS_copy/github.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pluralsight/AngularJS_copy/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pluralsight/AngularJS_copy/main.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pluralsight/AngularJS_copy/notes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pluralsight/AngularJS_copy/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pluralsight/AngularJS_copy/user.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pluralsight/AngularJS_copy/userDetails.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign/AngularJs/directives.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign/AngularJs/expressions.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign/AngularJs/filters.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign/AngularJs/hello.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign/AngularJs/inputSearch.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign/AngularJs/models.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign/AngularJs/modules.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign/AngularJs/ngClick.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign/AngularJs/ngController.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign/AngularJs/ngExpressions.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign/AngularJs/ngrepeat.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign/AngularJs/scopes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign/AngularJs/test/files.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign/AngularJs/test/myApp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign/AngularJs/test/myCtrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDesign/AngularJs/validInput.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pythoncourse/installvideos/configure-pycharm.exe" afterPath="$PROJECT_DIR$/Pythoncourse/installvideos/configure-pycharm.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pythoncourse/installvideos/pycharm-final.exe" afterPath="$PROJECT_DIR$/Pythoncourse/installvideos/pycharm-final.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pythoncourse/installvideos/python-final.exe" afterPath="$PROJECT_DIR$/Pythoncourse/installvideos/python-final.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pluralsight/AngularJS_2/MainController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pluralsight/AngularJS_2/RepoController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pluralsight/AngularJS_2/UserController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pluralsight/AngularJS_2/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pluralsight/AngularJS_2/github.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pluralsight/AngularJS_2/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pluralsight/AngularJS_2/main.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pluralsight/AngularJS_2/notes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pluralsight/AngularJS_2/repo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pluralsight/AngularJS_2/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pluralsight/AngularJS_2/user.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pluralsight/AngularJS_2/userDetails.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebDesign/AngularJS/demo.html" afterPath="$PROJECT_DIR$/WebDesign/AngularJS/demo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebDesign/AngularJS/scripts/scripts.js" afterPath="$PROJECT_DIR$/WebDesign/AngularJS/scripts/scripts.js" />
     </list>
     <ignored path="programs-practise.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -103,76 +53,15 @@
     <favorites_list name="programs-practise" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pluralsight/AngularJS_copy/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="github.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pluralsight/AngularJS_copy/github.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pluralsight/AngularJS_copy/MainController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pluralsight/AngularJS_copy/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pluralsight/AngularJS_copy/user.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserController.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pluralsight/AngularJS_copy/UserController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -187,12 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/WebDesign/code_design.html" />
-        <option value="$PROJECT_DIR$/Notes/Git Commands" />
-        <option value="$PROJECT_DIR$/WebDesign/jquery/lazyLoad.html" />
-        <option value="$PROJECT_DIR$/task/foundation-5.5.3/home.html" />
-        <option value="$PROJECT_DIR$/task/foundation-5.5.3/css/base.css" />
-        <option value="$PROJECT_DIR$/test/pdf.py" />
         <option value="$PROJECT_DIR$/WebDesign/AngularJs/hello.html" />
         <option value="$PROJECT_DIR$/WebDesign/AngularJs/expressions.html" />
         <option value="$PROJECT_DIR$/WebDesign/AngularJs/ngController.html" />
@@ -238,6 +121,12 @@
         <option value="$PROJECT_DIR$/pluralsight/AngularJS_copy/index.html" />
         <option value="$PROJECT_DIR$/pluralsight/AngularJS_copy/user.html" />
         <option value="$PROJECT_DIR$/pluralsight/AngularJS_copy/MainController.js" />
+        <option value="$PROJECT_DIR$/pluralsight/AngularJS_2/app.js" />
+        <option value="$PROJECT_DIR$/pluralsight/AngularJS_2/index.html" />
+        <option value="$PROJECT_DIR$/pluralsight/AngularJS_2/RepoController.js" />
+        <option value="$PROJECT_DIR$/pluralsight/AngularJS_2/github.js" />
+        <option value="$PROJECT_DIR$/pluralsight/AngularJS_2/repo.html" />
+        <option value="$PROJECT_DIR$/pluralsight/AngularJS_2/user.html" />
       </list>
     </option>
   </component>
@@ -249,9 +138,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1431" />
-    <option name="y" value="24" />
+    <option name="y" value="-4" />
     <option name="width" value="1301" />
-    <option name="height" value="744" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -294,8 +183,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -338,24 +227,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pluralsight" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AngularJS_copy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="programs-practise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="programs-practise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="coursera" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -373,17 +244,17 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/WebDesign/AngularJS" />
+      <recent name="$PROJECT_DIR$/WebDesign/AngularJS/images" />
+      <recent name="$PROJECT_DIR$/WebDesign/jquery/img" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/pluralsight" />
       <recent name="$PROJECT_DIR$/pluralsight/AngularJS" />
       <recent name="$PROJECT_DIR$/WebDesign" />
       <recent name="$PROJECT_DIR$/coursera/html" />
       <recent name="$PROJECT_DIR$/WebDesign/foundation-5.5.3" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/WebDesign/AngularJS" />
-      <recent name="$PROJECT_DIR$/WebDesign/AngularJS/images" />
-      <recent name="$PROJECT_DIR$/WebDesign/jquery/img" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.demo.html">
@@ -704,10 +575,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1431" y="24" width="1301" height="744" extended-state="6" />
+    <frame x="1431" y="-4" width="1301" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27729085" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2820717" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -765,22 +636,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WebDesign/AngularJs/test/myApp.js" />
-    <entry file="file://$PROJECT_DIR$/WebDesign/AngularJs/test/myCtrl.js" />
-    <entry file="file://$PROJECT_DIR$/WebDesign/AngularJs/test/files.html" />
-    <entry file="file://$PROJECT_DIR$/WebDesign/AngularJs/ngrepeat.html" />
-    <entry file="file://$PROJECT_DIR$/WebDesign/AngularJs/directives.html" />
-    <entry file="file://$PROJECT_DIR$/WebDesign/AngularJs/models.html" />
-    <entry file="file://$PROJECT_DIR$/WebDesign/AngularJs/validInput.html" />
-    <entry file="file://$PROJECT_DIR$/WebDesign/AngularJs/ngClick.html" />
-    <entry file="file://$PROJECT_DIR$/WebDesign/AngularJs/scopes.html" />
-    <entry file="file://$PROJECT_DIR$/PythonScripts/facebook.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebDesign/AngularJs/inputSearch.html" />
     <entry file="file://$PROJECT_DIR$/WebDesign/AngularJs/hello.html" />
     <entry file="file://$PROJECT_DIR$/WebDesign/AngularJs/filters.html" />
@@ -912,7 +767,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -934,7 +788,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="19" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -942,7 +795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -950,7 +802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
           <caret line="76" column="35" selection-start-line="76" selection-start-column="35" selection-end-line="76" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -958,7 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -966,7 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -974,9 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -992,9 +838,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1002,7 +845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1010,7 +852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1018,6 +859,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pluralsight/AngularJS_copy/user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pluralsight/AngularJS_copy/github.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pluralsight/AngularJS_copy/MainController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pluralsight/AngularJS_copy/UserController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
           <folding />
         </state>
       </provider>
@@ -1030,10 +903,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pluralsight/AngularJS_copy/user.html">
+    <entry file="file://$PROJECT_DIR$/pluralsight/AngularJS_copy/RepoController.js" />
+    <entry file="file://$PROJECT_DIR$/pluralsight/AngularJS_2/notes">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1046,26 +920,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pluralsight/AngularJS_copy/github.js">
+    <entry file="file://$PROJECT_DIR$/pluralsight/AngularJS_2/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        <state relative-caret-position="255">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pluralsight/AngularJS_copy/MainController.js">
+    <entry file="file://$PROJECT_DIR$/pluralsight/AngularJS_2/RepoController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+        <state relative-caret-position="210">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pluralsight/AngularJS_copy/UserController.js">
+    <entry file="file://$PROJECT_DIR$/pluralsight/AngularJS_2/github.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        <state relative-caret-position="133">
+          <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pluralsight/AngularJS_2/repo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pluralsight/AngularJS_2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pluralsight/AngularJS_2/UserController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pluralsight/AngularJS_2/user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pluralsight/AngularJS_2/userDetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-315">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
