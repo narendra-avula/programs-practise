@@ -6,7 +6,9 @@
 eventsApp.controller('EventController',
     function EventController($scope) {
 
-        $scope.snippet = '<span style="color:red">Hi there</span>'
+        $scope.snippet = '<span style="color:red">Hi there</span>';
+        $scope.boolValue = false;
+        $scope.buttonDisabled = true;
         $scope.event = {
             name : 'Angular Js demo',
             date : '27/09/2016',

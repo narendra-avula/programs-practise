@@ -1,0 +1,73 @@
+8/10/2016
+Angular JS 1.X
+-----------------------
+OBJECTIVES:
+what and why angular js
+-----------------------
+“Thinking in AngularJS” if I have a jQuery background?
+http://stackoverflow.com/questions/14994391/thinking-in-angularjs-if-i-have-a-jquery-background
+-------
+
+HTML
+CSS
+ - style sheets
+ - override the default styles
+ - seperate document from presentation
+ - three ways
+    * inline
+    * block
+    * file
+
+JAVASCRIPT
+ - Dynamic prg lang
+ - compiled and interpreted
+ - used to modify the DOM on the browser
+ - Enables interactivity
+ - Enables rich client SPAs
+--------------------------------------------
+
+ DOM tree
+ HTML - Static
+ JavaScript - dynamic
+ -------
+
+ JavaScript
+ - messy code
+ - no seperation of concerns
+ - hard to maintain
+ - hard to test
+=========================================================================
+
+UNIT 2
+Introducing Angular JS
+angular.io offical website
+
+key - Extending HTML
+----------------
+add date in html
+-- JS/jQuery way
+    * find the element
+    * get the current date
+    * add the content to the element
+
+~ Find Element    ====  declare Element type
+~ Run logic       ====  Define logic
+~ Update element  ====  use element type
+-------------
+declarative programming vs imperative programming
+
+text-align style is declarative
+
+custom elements
+ - Directives
+ - components
+
+* slider
+* button-click and text output
+---------------
+
+HTML
+
+
+
+

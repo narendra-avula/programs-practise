@@ -1,0 +1,168 @@
+8/10/2016
+Angular JS 1.X
+-----------------------
+OBJECTIVES:
+what and why angular js
+-----------------------
+“Thinking in AngularJS” if I have a jQuery background?
+http://stackoverflow.com/questions/14994391/thinking-in-angularjs-if-i-have-a-jquery-background
+-------
+
+HTML
+CSS
+ - style sheets
+ - override the default styles
+ - seperate document from presentation
+ - three ways
+    * inline
+    * block
+    * file
+
+JAVASCRIPT
+ - Dynamic prg lang
+ - compiled and interpreted
+ - used to modify the DOM on the browser
+ - Enables interactivity
+ - Enables rich client SPAs
+--------------------------------------------
+
+ DOM tree
+ HTML - Static
+ JavaScript - dynamic
+ -------
+
+ JavaScript
+ - messy code
+ - no seperation of concerns
+ - hard to maintain
+ - hard to test
+=========================================================================
+
+UNIT 2
+Introducing Angular JS
+angular.io offical website
+
+key - Extending HTML
+----------------
+add date in html
+-- JS/jQuery way
+    * find the element
+    * get the current date
+    * add the content to the element
+
+~ Find Element    ====  declare Element type
+~ Run logic       ====  Define logic
+~ Update element  ====  use element type
+-------------
+declarative programming vs imperative programming
+
+text-align style is declarative
+
+custom elements
+ - Directives
+ - components
+
+* slider
+* button-click and text output
+---------------
+
+1. Creating new directory
+2. Download angular.js file from offical website
+3. create html file
+----
+
+ng-app
+ng-if
+ng-init
+================================================
+unit-3
+Basic AngularJS features
+
+ng-app:
+    * auto-bootstrap and angularJS application
+    * Designates the root element of the appilcation
+    * you can use ng-app in any HTML element, not necessarily in <html> as we did.
+      That element becomes the root node for your angular application
+    * bootstrap of application
+    * Multiple applications per page okay (requires manual bootstrap)
+
+ng-init:
+    * initialization code
+    * evaluate expressions
+    * Don't use this!!!
+
+ng-if:
+    * removes or recreate a portion of the DOM tree based on an expression
+    * element is added to the DOM if expression evaluates to true
+    * If expression is false , element doesn't get added to the DOM
+
+ng scope:
+    * it is an object
+    * When angular app starts it creates sharing common space area.
+      In this we access the variables by using scope.variableName
+
+ng-bind:
+    * Allows you to add value of a variable into the markup
+     syntax
+            <span ng-bind="userName"></span>
+
+                    or
+
+                {{ userName }}
+
+ng-controller:
+    1. creates a module
+    2. register this function as a controller
+    3. write logic
+
+angular.module:
+    > Global place for creating, registering and retrieving angular modules
+    > A module is a collection of directives, controllers and other stuff
+    ------
+
+    creating a new module:
+        var module = angular.module("myApp", []);
+
+        var myModule = angular.module("myModule", []);
+
+    use module :
+        <html ng-app="myModule">
+
+    Registering a controller:
+        - Module is a collection of things like controllers.
+        - A controller has to be registered with a module
+
+        myModule.controller("MainCtrl", MainFun);
+        function MainFun(){
+            console.log("Controller executed");
+        }
+
+
+12/10/2016:
+
+Directives:
+ng-show, ng-hide, ng-if
+ng-repat
+
+services:
+http,
+promises
+
+creating directives and components
+
+unit testing
+    (jasmine- unit testing )
+    (protractor- integration testing )
+
+
+others:
+    build tools - Yeoman, bower, gulp
+    routing - UI router, ngRouter
+
+
+
+
+
+
+
+
