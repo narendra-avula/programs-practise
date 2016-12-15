@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Foundation Template</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/css/foundation.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/foundation.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/vendor/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/foundation.js"></script>
+</head>
+<body>
+<h2> Example of Responsive Navigation menu</h2>
+<ul class="menu dropdown" data-responsive-menu="drilldown medium-dropdown">
+   <li><a href="#">Bike</a>
+      <ul class="menu">
+         <li><a href="#">Bajaj</a></li>
+	     <li><a href="#">Suzuki</a></li>
+	     <li><a href="#">Honda</a>
+	        <ul class="menu">
+               <li><a href="#">Activa</a></li>
+               <li><a href="#">Dio</a></li>
+               <li><a href="#">Passion</a></li>
+	        </ul>
+	     </li>
+      </ul>
+   </li>
+   <li><a href="#">Car</a></li>
+   <li><a href="#">Service</a></li>
+   <li><a href="#">Contact</a></li>
+</ul>
+
+<script>
+   $(document).ready(function() {
+     $(document).foundation();
+   })
+</script>
+</body>
+</html>

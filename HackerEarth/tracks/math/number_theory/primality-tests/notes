@@ -1,0 +1,300 @@
+A natural number
+
+N is said to be a prime number if it can be divided only by
+
+1 and itself. Primality Testing is done to check if a number is a prime or not. The topic explains different algorithms available for primality testing.
+
+Basic Method:
+
+This is an approach that goes in a way to convert definition of prime numbers to code. It checks if any of the number less than a given number(
+
+N) divides the number or not. But on observing the factors of any number, this method can be limited to check only till
+
+
+N. This is because, product of any two numbers greater than
+
+N
+N can never be equal to
+N
+N. A C++ function for basic method is shown below.
+
+int PrimeTest(int N)
+{
+    for (int i = 2; i*i <= N; ++i)
+    {
+        if(N%i == 0)
+        {
+            return 0;
+        }
+    }
+    return 1;
+}
+The function returns
+1
+1 if
+N
+N is a prime number and
+0
+0 for a composite number. This function runs with a complexity of
+O
+(
+?
+n
+)
+O(n). That implies, this method can at most be used for numbers of range
+10
+15
+1015 to
+10
+16
+1016 to determine if it's a prime or not in reasonable amount of time.
+
+One major application of prime numbers are that they are used in cryptography. One of the standard cryptosystem - RSA algorithm uses a prime number as key which is usually over
+1024
+1024 bits to ensure greater security. When dealing with such large numbers, definitely doesn't make the above mentioned method any good. Also, should be noticed that it is not easy to work with such large numbers especially when the operations performed are / and % at the time of primality testing. Thus most primality testing algorithms that are developed can only determine if the given number is a "probable prime" or composite. Couple of widely used of these algorithms are explained below.
+
+Sieve of Eratosthenes:
+
+This is a simple algorithm useful in finding all the prime numbers up to a given number(
+N
+N). The algorithm takes all the numbers from
+2
+2 to
+N
+N all initially unmarked. It starts from
+2
+2. If the number is unmarked, mark all its multiples
+?
+N
+?N as composites. The performance can be improved by doing the above operation only till
+?
+N
+N and all the numbers in range
+[
+2
+,
+N
+]
+[2,N] that remained unmarked are primes. The reason that we can stop after doing the iterations only till
+?
+N
+N is that, no composites
+?
+N
+?N would have a prime factor greater than
+?
+N
+N.
+
+A pseudocode for this algorithm is as below
+
+A[N] = {0}
+
+for i from 2 to sqrt(N):
+    if A[i] = 0:
+        for j from 2 to N:
+            if i*j > N:
+                break
+            A[i*j] = 1
+In the final array, starting from 2, if for any index, value is 0, it is a prime, else is a composite.
+
+Fermat Primality Testing:
+
+This testing is based on Fermat's Little Theorem. The theorem states that, given a prime number
+P
+P, and any number
+a
+a (where
+0
+<
+a
+<
+p
+0<a<p), then
+a
+p
+?
+1
+?
+1
+m
+o
+d
+p
+ap?1?1modp.
+
+In Fermat Primality Testing,
+k
+k random integers are selected as the value of
+X
+X (where all
+k
+k integers follow
+0
+<
+X
+<
+p
+0<X<p). If the statement of Fermat's Little Theorem is accepted for all these
+k
+k values of
+X
+X for a given number
+N
+N, then
+N
+N is said as a probable prime. Pseudocode for Fermat primality testing is as below.
+
+function: FermatPrimalityTesting(int N):
+    pick a random integer k     //not too less. not too high.
+    LOOP: repeat k times:
+        pick a random integer X in range (1,N-1)
+        if(X^(N-1)%N != 1):
+            return composite
+    return probably prime
+Miller-Rabin Primality Testing:
+
+Similar to Fermat primality test, Miller-Rabin primality test could only determine if a number is a probable prime.
+
+It is based on a basic principle where if
+X
+2
+?
+Y
+2
+m
+o
+d
+N
+X2?Y2modN, but
+X
+!
+?
+±
+Y
+m
+o
+d
+N
+X!?±YmodN, then
+N
+N is composite.
+
+The algorithm in simple steps can be written as,
+
+Given a number
+N
+N(
+>
+2
+>2) for which primality is to be tested,
+Step 1: Find
+N
+?
+1
+=
+2
+R
+.
+D
+N?1=2R.D
+Step 2: Choose
+A
+A in range
+[
+2
+,
+N
+?
+2
+]
+[2,N?2]
+Step 3: Compute
+X
+0
+=
+A
+D
+m
+o
+d
+N
+X0=ADmodN. If
+X
+0
+X0 is
+±
+1
+±1,
+N
+N can be prime.
+Step 4: Compute
+X
+i
+=
+X
+i
+?
+1
+m
+o
+d
+N
+Xi=Xi?1modN. If
+X
+i
+=
+1
+Xi=1,
+N
+N is composite.
+If
+X
+i
+=
+?
+1
+Xi=?1,
+N
+N is prime.
+Step 5: Repeat Step 4 for
+R
+?
+1
+R?1 times.
+Step 6: If neither
+?
+1
+?1 or
++
+1
++1 appeared for
+X
+i
+Xi,
+N
+N is composite.
+
+Pseudocode for Miller-Rabin primality testing is given below.
+
+function: MillerRabin_PrimalityTesting(int N):
+    if N%2 = 0:
+        return composite
+
+    write N-1 as (2^R . D) where D is odd number
+    pick a random integer k     //not too less. not too high.
+
+    LOOP: repeat k times:
+        pick a random integer A in range [2,N-2]
+        X = A^D % N
+        if X = 1 or X = N-1:
+            continue LOOP
+        for i from 1 to r-1:
+            X = X^2 % N
+            if X = 1:
+                return composite
+            if X = N-1:
+                continue LOOP
+        return composite
+    return probably prime
+There are other methods too like AKS primality test, Lucas primality test which predicts if a number could be prime number or not. A method called Elliptic curve primality testing proves if a given number is prime, unlike predicting in the above mentioned methods.

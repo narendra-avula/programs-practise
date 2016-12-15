@@ -1,0 +1,58 @@
+/*ul.header-section {*/
+/*overflow: hidden;*/
+/*list-style: none;*/
+/*}*/
+
+/*ul.header-section li {*/
+/*float: right;*/
+/*}*/
+/*.main-heading{*/
+    /*font-size: 35px;*/
+    /*margin-top: 30px;*/
+    /*text-align: center;*/
+    /*color: white;*/
+/*}*/
+/*.main-heading-tag{*/
+    /*font-size: 18px;*/
+    /*text-align: center;*/
+    /*color: white;*/
+/*}*/
+/*.design-on-image{*/
+    /*font-size: 35px;*/
+    /*text-align: center;*/
+    /*color: white;*/
+/*}*/
+/*.main-content{*/
+    /*background-image: url("../img/orange-and-black-interior-artwork-ideas.jpg");*/
+    /*width: 100%;*/
+    /*position: relative;*/
+/*}*/
+
+.image-alignment {
+    height: 600px;
+    width: 100%;
+}
+.back-ground-image {
+    width: 100%;
+    position: relative;
+}
+img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.text-on-contact-us-image {
+    position: absolute;
+    top: 17%;
+}
+.heading-on-image {
+    font-size: 38px;
+    color: #FFF;
+    font-weight: 900;
+    margin: 0;
+    text-align: center;
+}
+.tag-line-on-image {
+    font-size: 21px;
+    text-align: center;
+    color: #FFF;
+}

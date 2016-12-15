@@ -202,9 +202,6 @@ git revert		// revert a commit, by creating a new one
 git gc
 git gc --aggressive
 
-
-
-
 // editeur chez thomas
 mingw32
 

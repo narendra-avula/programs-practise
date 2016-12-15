@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="ngModelsExamples">
+<head>
+    <meta charset="UTF-8">
+    <title>NG MODELS</title>
+    <script src="angular.js"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+    <div ng-controller="ExamplesCtrl">
+        <h1>ngModel Examples App</h1>
+        <p>Textbox : <input type="text" ng-model="textString"></p>
+        <p>checkbox : <input type="checkbox" ng-model="booleanValue"></p>
+        <p>Date : <input type="date" ng-model="dateValue"></p>
+        <p>Radio:
+            <input type="radio" ng-model="radioValue" value="opt1">Option 1</input>
+            <input type="radio" ng-model="radioValue" value="opt2">Option 2</input>
+            <input type="radio" ng-model="radioValue" value="opt3">Option 3</input>
+        </p>
+        <div>
+            <p>Text : {{ textString }}</p>
+            <p>Check box :{{ booleanValue }}</p>
+            <p>Date: {{ dateValue }}</p>
+            <p>Radio button: {{ radioValue }}</p>
+        </div>
+    </div>
+
+
+</body>
+</html>

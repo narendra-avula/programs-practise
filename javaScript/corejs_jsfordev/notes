@@ -1,0 +1,138 @@
+10/10/2016
+JavaScript Introduction:
+- what is javascript?
+- why learn it?
+- History of the language
+- examples
+-----------
+what is JavaScript?
+- JavaScript is a lightweight, interpreted, object-oriented language with first class functions,
+  and is best known as scripting language for web pages, but it's used in many non-browser environments as well
+
+   lightweight:
+        small memory footprint, easy to implement
+   interpreted:
+        No compilation, instructions executed directly
+   object-oriented:
+        modeled around objects
+   first class functions:
+        functions as values
+   scripting language:
+        instructions for runtime environment
+
+
+Why learn JavaScript?
+    * Client side validation
+        - Native js
+        - frameworks
+        - jQuery
+        - AngularJS, React, Ember
+
+    * Server side
+        - NodeJS
+        - express
+    * browser extensions
+    * Desktop extensions
+    * Mobile applications
+    * IOT applications
+
+13/10/2016:
+Primitive Types:
+    * Number
+    * String
+    * Boolean
+    * undefined
+    * null
+    * Symbol
+
+
+* No need to declare variable type
+* The same variable can be assigned values of different types
+* no scoping information in variable declarations
+* variables and values can be "interrogated".
+
+
+Typeof operator:
+    console.log( typeof(null) ) // Object
+
+Type Coercion:
+    0, "", null, undefined, false
+    - JS is flexible with typing
+    - values of all types an associated boolean value
+    - always use === for precise checks both
+
+=== operator:
+
+Objects:
+- Object is essentially a collection of data and functionality
+    * data refered to as properties
+    * functionality to as methods off the object
+
+    * Free form not bound to a class
+    * Object literal solution to create objects
+    * Object properties can be accesed directly
+    * New properties can be added on objects directly
+    * Objects can have methods
+
+    -- Dot and Bracket notations:
+        user [] notation when
+            * property name is resvered word/invalid identifier
+            * Property name starts with a number
+            * property name is dynamic
+
+        dot notation access faster than square bracket notation
+
+        Runtime engine may not be able to optimize [] notation
+
+        Dor and [] notation can be interchanged
+
+
+Arrays:
+    var myArray = [1,2,3,4];
+    myArray[0]
+    myArray[1]
+    myArray[2]
+
+    Wrapper Objects:
+        String , Number, Boolean, Object
+
+
+Functions:
+    * functions can be written in literal form
+    * A function is a value that can be assigned to a variable
+    * Can be called by passing in arguments
+    * Functions are objects
+    * Flexible argument count
+    * No function overloading
+    * Default arguments
+    * Tha arguments argument
+
+    Function declaration:
+
+
+Array Methods:
+    arrays:
+        myArray.push(50)
+            takes argument and add to array at the last
+        myArray.pop();
+            removes last element in array
+        myArray.shift();
+            removes first element in array
+        myArray.unshift(42);
+            add new item to the first of the array
+
+        myArray.forEach( function(item, index, array){
+            console.log(item, index);
+        });
+
+Reading Assignment:
+    Date Object and Math Objects in MDN
+
+Next Steps:
+    Objects
+    Constructors
+    scopes abd closures
+    Objects and prototypes
+    Asynchronous javascript, call backs and promises
+    Client side frameworkds
+    server side frameworks(nodejs, expressjs)

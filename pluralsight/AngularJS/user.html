@@ -1,0 +1,85 @@
+<div>
+    <div>
+        <h2>{{ user.name }}</h2>
+        {{ error }}
+    </div>
+    <div>
+        <h2>{{ user.location }}</h2>
+    </div>
+    <div>
+        <h2>{{ user.email }}</h2>
+    </div>
+    <div>
+        <h2>{{ user.login }}</h2>
+    </div>
+    <div>
+        <img ng-src="{{ user.avatar_url }}" title="{{ user.name }}">
+    </div>
+
+    <br />Order:
+    <select ng-model="repoSortOrder">
+        <option value="+name">Name</option>
+        <option value="-stargazers_count">Stars</option>
+        <option value="+language">Language</option>
+    </select>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Stars</th>
+      <th>Language</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="repo in repos | orderBy: repoSortOrder">
+      <td>{{repo.name}}</td>
+      <td>{{repo.stargazers_count | number }}</td>
+      <td>{{repo.language}}</td>
+    </tr>
+  </tbody>
+</table>
+
+<!--<div id="userDetails">-->
+    <!--<div>{{ error }}</div>-->
+
+    <!--<div>-->
+        <!--<h2>{{ user.name }}</h2>-->
+    <!--</div>-->
+    <!--<div>-->
+        <!--<h2>{{ user.location }}</h2>-->
+    <!--</div>-->
+    <!--<div>-->
+        <!--<h2>{{ user.email }}</h2>-->
+    <!--</div>-->
+    <!--<div>-->
+        <!--<h2>{{ user.login }}</h2>-->
+    <!--</div>-->
+    <!--<div>-->
+        <!--<img ng-src="{{ user.avatar_url }}" title="{{ user.name }}">-->
+    <!--</div>-->
+
+    <!--<select ng-model="repoSortOrder">-->
+        <!--<option value="None">None</option>-->
+        <!--<option value="+name">Name</option>-->
+        <!--<option value="-stargazers_count">Stars</option>-->
+        <!--<option value="+language">Language</option>-->
+    <!--</select>-->
+<!--</div>-->
+
+
+<!--<table ng-hide="!user">-->
+    <!--<tr>-->
+        <!--<th>Name</th>-->
+        <!--<th>Stars</th>-->
+        <!--<th>Language</th>-->
+    <!--</tr>-->
+    <!--<tbody>-->
+    <!--<tr ng-repeat="repo in repos | orderBy:repoSortOrder">-->
+        <!--<td>{{ repo.name }}</td>-->
+        <!--<td>{{ repo.stargazers_count|number }}</td>-->
+        <!--<td>{{ repo.language }}</td>-->
+    <!--</tr>-->
+    <!--</tbody>-->
+<!--</table>-->

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="moreDirectives">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator App</title>
+    <script src="angular.js"></script>
+    <script src="app.js"></script>
+    <style>
+
+    </style>
+</head>
+<body>
+    <h1>More Directives App</h1>
+    <div ng-controller="MoreDirectivesCtrl as ctrl">
+        <!--Show name: <input type="checkbox" ng-model="ctrl.checked">-->
+        <!--<p ng-show="ctrl.checked">Narendra Avula</p>-->
+
+        <!--<div ng-repeat="x in ctrl.myList">-->
+            <!--{{ x }}  Hello Narendra!!!!!-->
+        <!--</div>-->
+
+        <div ng-repeat="emp in ctrl.employees">
+            <p>Element : {{ $index }}</p>
+            <p>Name : {{ emp.name }}</p>
+            <p>Age : {{ emp.age }}</p>
+            <hr>
+        </div>
+    </div>
+</body>
+</html>

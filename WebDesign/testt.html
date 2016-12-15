@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        $(document).ready(function() {
+            $( "#clickme" ).click(function() {
+                $(this).hide();
+            });
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>
+
+We load the Maps JavaScript API using a script tag.
+
+To load the Google Maps JavaScript API, use a script tag like the one in the following example:
+<script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+</script>
+The URL contained in the script tag is the location of a JavaScript file that loads all of the symbols and definitions you need for using the Maps JavaScript API. This script tag is required.
+
+The async
+attribute lets the browser render the rest of your website while the Maps JavaScript API loads. When the API is ready, it will call the function specified using the callback parameter.
+
+
+Browser sniffing (also known as browser detection) is a set of techniques used in websites and web applications in order to determine the web browser a visitor is using, and to serve browser-appropriate content to the visitor. This practice is sometimes utilized to circumvent incompatibilities between browsers due to misinterpretation of HTML, Cascading Style Sheets (CSS), or the Document Object Model (DOM). While the World Wide Web Consortium maintains up-to-date central versions of some of the most important Web standards in the form of recommendations, in practice no software developer has designed a browser which adheres exactly to these standards; implementation of other standards and protocols, such as SVG and XMLHttpRequest, varies as well. As a result, different browsers display the same page differently, and so browser sniffing was developed to detect the web browser in order to help ensure consistent display of content.
+Advantages: browser updates are now following a push model ala Chrome so that you aren't waiting on users to go out and download the latest browser. Rapid release allows the browser developer to push new features out quicker instead of having to wait for a major update. There will soon be only one "version" of a browser.
+
+Disadvantages: pretty much all of the above. Users behind a firewall may not be allowed to stay up to date and it will be difficult to support specific versions as version numbers ar disappearing. This means those new features may not be on your user's machine (how will you then support older "versions" when your test browser keeps updating itself?). It will also make it difficult say which versions of a browser your site will support. Testing will also be difficult as you will need to monitor all the silent updates sent to browsers and make sure your site didn't break.

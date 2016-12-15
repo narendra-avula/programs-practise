@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Thinking in AngularJS</title>
+    <script src="angular.js"></script>
+</head>
+<body>
+    <div ng-controller="MainCtrl">
+        <h1>Hello AngularJS!</h1>
+        <p ng-if="hourofDay < 12">Good Morning!!!!!!</p>
+        <p ng-if="hourofDay > 12">Good Evening!!!!!!</p>
+        <!--<p>The hour of the day is : <span ng-bind="hourofDay"></span></p>-->
+        <p>The hour of the day is : {{ hourofDay }}</p>
+    </div>
+
+    <div ng-controller="ClockCtrl">
+        <h1>{{ heading }}</h1>
+        <p>{{ clock|date:'MMM d, y h:mm:ss a' }}</p>
+    </div>
+
+    <div ng-controller="TwoWayBinding">
+        <p>Please enter your name : <input ng-model="userName" type="text"></p>
+        <h1>Name is {{ userName }}</h1>
+    </div>
+
+    <script>
+        var module = angular.module("myApp", []);
+
+        module.controller("MainCtrl", Main);
+        module.controller("ClockCtrl", getTime);
+        module.controller("TwoWayBinding", getName);
+
+        function getName($scope){
+            $scope.userName = "";
+        }
+
+        function getTime($scope, $timeout){
+            $scope.heading = "Clock APP";
+            $scope.clock = "loading clock...";
+            $scope.tickInterval = 1000
+
+            var tick = function(){
+                $scope.clock = new Date();
+                $timeout(tick, $scope.tickInterval);
+            }
+            $timeout(tick, $scope.tickInterval);
+        }
+
+        function Main($scope){
+//            var scope = angular.getScope();
+            $scope.hourofDay = 9;
+            console.log("main called");
+        }
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,104 @@
+This is second article of the series--> Python Diaries
+Link for first article --> Python Diaries chapter 1
+
+In previous article I've mentioned syntax for most basic functions, now I will explain some of them in detailed manner. Also, this article will cover the concepts of string manipulation
+
+Let us start with our beloved PRINT
+
+In previous post I showed how to print in same line and on different lines but only for single variable, let us take one step forward and see how to print multiple variable using only one 'print'.
+
+a = 5
+b = 'string'
+print "a is an integer equal to %d and  b is a string equal to %s" %(a,b)
+Output--> a is an integer equal to 5 and  b is a string equal to string
+To print variable inside a print containing text, use format specifiers ie.
+
+%d for integer
+%f for float
+%s for string
+
+To link format specifier to the particular variable, write name of the variable in parenthesis after the closing quotes and appending a percent sign.
+Remember to separate variables using commas between variable names.
+
+One more thing, if you wanna print a variable at the end of the text, you can simply do like this
+
+print "value of variable a is",a
+ Output-> value of variable a is 5
+That's enough of output for now, let's move on to input
+
+Suppose you're making an app/software etc. Now you want user to input some data and want to tell user what type of data to be entered
+
+To input string we use
+
+variable = raw_input()
+just pass the text you want to display to user as argument
+
+example
+
+variable = raw_input("Enter your age ")
+Output--> Enter your age
+#system will wait until user enters some value
+We are done with I/O for now, let us take a look at some string manipulation functions
+
+The classical problem falling under string manipulation category is "convert text to lower-case/upper-case".
+Python has built-in standard methods (no need to import any module) to do this which sometimes haunts a beginner..Right,huh??
+
+here is an example
+
+my_string = "stellar"
+new_string = my_string.upper()
+print new_string
+Output --> STELLAR
+Similarly to convert to lower-case just replace 'upper' with 'lower' in above code like this--> new_string=my_string.lower()
+
+But hey look my_string has only first part of my name, where's the rest? Let us make a string which has my full name
+
+good_string = "stellar coder"
+Hmmm, that's okay....but it would have been better if 's' and 'c' were capitalized..
+Now i will tell you a method which was made to do exactly this task :-)
+
+better_string = good_string.title()
+print better_string
+Output --> Stellar Coder
+That looks nice !!!!!!!!!
+
+Some of you might be wondering 'What's the difference between a function and a method
+
+For now you can say anything which is used like this "something.method()" ie. functionality name after a period , these things are METHODS
+and if something is like this --> function(something) ie. variable/data is passed as an argument then we call them FUNCTIONS
+
+Here's the last one and may be you will use this more than others.
+swapcase--> It swaps the case of all case-based characters ie. Alphabets present in the string and ignores rest.
+Example
+
+my_gun = "ak47"
+print my_gun.swapcase()
+Ouput--> AK47
+my_name = "sTELLAR cODER"
+
+print my_name.swapcase()
+ Output--> Stellar Coder
+Now let's look at a very special tool present in python --> [ : : ] (slicing tool)
+
+It is mostly for slicing the built-in types ie. list, string . The basic form of the slicing syntax is somelist[start:end:jump], where start is inclusive and end is exclusive.
+Note--> default value of start is 0 and end is length of list/string and jump is 1
+Without any further ado, let me show you some code after all that's the only thing which matters
+
+a = ['a','b','c','d','e','f','g','h']
+print "first four elements",a[:4]
+ Output --> ['a','b','c','d']
+print "last four elements",a[-4:]
+ Output --> ['e','f','g','h']
+print "middle two",a[3:-3]
+ Output -> ['d','e']
+Tip--> Try some different values on a sample list for better understanding
+
+That's it for now. Python is a very vast language with a wide range of in-built functionalities. I will introduce you to majority of them by the end of this series and most importantly I'll tell you how to use them efficiently
+
+In next article I'll introduce you to for-else loop,filter function,list comprehension,map( we have seen it earlier already).
+
+Then an article only on function. It will include following->
+1. What is a function
+2. Uses of function
+3. How to use it.
+4. Special features in python related to function (like yield).

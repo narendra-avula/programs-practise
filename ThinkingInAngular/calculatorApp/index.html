@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="calculator">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator App</title>
+    <script src="angular.js"></script>
+    <script src="app.js"></script>
+    <style>
+        .operator-box {
+            border: 1px solid grey;
+            padding: 5px;
+            font-size: 23px;
+            margin-right: 2px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Calculator App</h1>
+
+    <div ng-controller="CalculatorCtrl">
+        <h3><input type="number" ng-model="firstValue"> &nbsp;
+            {{ operator }} &nbsp;
+            <input type="number" ng-model="secondValue">
+            =
+            {{ result() }}
+        </h3>
+         <p>Choose operator :
+                            <span ng-click="getOperator('+')" class="operator-box">+</span>
+                            <span ng-click="getOperator('-')" class="operator-box">-</span>
+                            <span ng-click="getOperator('*')" class="operator-box">*</span>
+                            <span ng-click="getOperator('/')" class="operator-box">/</span>
+                          </p>
+    </div>
+
+</body>
+</html>
