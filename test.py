@@ -50,16 +50,19 @@ __author__ = 'Naidu'
 # b = B()
 # print type(a) == type(b)
 
-class A(object):
-    def calc(self):
-        return 17
+# class A(object):
+#     def calc(self):
+#         return 17
+#
+# class B(object):
+#     def calc(self):
+#         return 6
+#
+# class C(A, B):
+#     pass
+#
+# c = C()
+# print c.calc()
 
-class B(object):
-    def calc(self):
-        return 6
-
-class C(A, B):
-    pass
-
-c = C()
-print c.calc()
+import math
+print math.factorial(100)
