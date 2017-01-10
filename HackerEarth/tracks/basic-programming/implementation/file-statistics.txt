@@ -1,0 +1,2 @@
+Enter text to be counted here. Check "Instant" to enable counting as you type.
+Check "Cursor position." to instantly count to your cursor's position. Results will display in the "Cursor position" field.

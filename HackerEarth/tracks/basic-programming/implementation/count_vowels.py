@@ -32,16 +32,16 @@ Print out the count of each vowel after the iteration over the string is done.
 
 string = raw_input()
 a , e, i, o, u = 0, 0, 0, 0, 0
-for i in string:
-    if i == 'a':
+for char in string:
+    if char == 'a':
         a += 1
-    elif i == 'e':
+    elif char == 'e':
         e += 1
-    elif i == 'i':
+    elif char == 'i':
         i += 1
-    elif i == 'o':
+    elif char == 'o':
         o += 1
-    elif i == 'u':
+    elif char == 'u':
         u += 1
 
 print "a= "+ str(a)
