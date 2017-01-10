@@ -40,7 +40,13 @@ Since the binary number given has six consecutive 1s, little Jhool tells the man
 '''
 
 binary_string = raw_input()
-if binary_string.find('111111') > 0 or binary_string.find('000000') > 0:
+if '111111' in binary_string  or '000000' in binary_string:
     print 'Sorry, sorry!'
 else:
     print 'Good luck!'
+
+# binary_string = raw_input()
+# if binary_string.find('111111') > 0 or binary_string.find('000000') > 0:
+#     print 'Sorry, sorry!'
+# else:
+#     print 'Good luck!'
