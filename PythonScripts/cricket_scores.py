@@ -51,4 +51,4 @@ while True:
         print ('Connection Issue')
         continue
     sendmessage('Live Score',score[0].text)
-    sleep(30)
+    sleep(25)

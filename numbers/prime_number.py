@@ -1,3 +1,4 @@
+
 __author__ = 'narendra'
 
 def isprime(number):
@@ -22,4 +23,4 @@ def isprime(number):
 
     return True
 
-print isprime(69)
+print isprime(1500450271)

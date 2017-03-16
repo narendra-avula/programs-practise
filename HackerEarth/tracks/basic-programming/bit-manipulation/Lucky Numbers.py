@@ -49,25 +49,36 @@ SAMPLE OUTPUT
 994614604
 '''
 
-def count_set_bits(number):
-    count = 0
-    while (number):
-        number = number & (number-1)
-        count += 1
-    return count
 
-def infinite_numbergenerator():
-    n = 0
-    while True:
-         yield n
-         n += 1
 
 test_cases = int(raw_input())
-while test_cases > 0:
+for _ in range(test_cases):
     number = int(raw_input())
+    bit_length = number.bit_length()
     sum = 0
-    for i in range(number+1):
-        if count_set_bits(i) == 2:
-            sum += i
-    print sum
-    test_cases -= 1
+    s = bin(number)[2:]
+    second = s[1:].find('1') + 1
+
+
+# def count_set_bits(number):
+#     count = 0
+#     while (number):
+#         number = number & (number-1)
+#         count += 1
+#     return count
+#
+# def infinite_numbergenerator():
+#     n = 0
+#     while True:
+#          yield n
+#          n += 1
+#
+# test_cases = int(raw_input())
+# while test_cases > 0:
+#     number = int(raw_input())
+#     sum = 0
+#     for i in range(number+1):
+#         if count_set_bits(i) == 2:
+#             sum += i
+#     print sum
+#     test_cases -= 1
