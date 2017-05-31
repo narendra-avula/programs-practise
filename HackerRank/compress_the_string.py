@@ -32,3 +32,27 @@ First, the character  occurs only once. It is replaced by . Then the character  
 
 Also, note the single space within each compression and between the compressions.
 '''
+
+
+
+# input_string = raw_input()
+# print (*[(len(list(c)), int(k)) for k, c in groupby(input())])
+
+# from itertools import groupby
+# input_string = raw_input()
+# compress_string = []
+# for k, c in groupby(input_string):
+#     compress_string.append( (len(list(c)), int(k)) )
+# print " ".join(str(x) for x in compress_string)
+
+string = raw_input()
+current = string[0]
+count = 0
+for i in xrange(len(string)):
+    if string[i] == current:
+        count += 1
+    else:
+        print "(%d, %s)" % (count, current),
+        current = string[i]
+        count = 1
+print "(%d, %s)" % (count, current)

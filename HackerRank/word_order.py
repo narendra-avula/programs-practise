@@ -40,4 +40,4 @@ for i in range(N):
         li.append(word)
 print (len(li))
 for i in li:
-    print (dict[i],end=' ')
+    print (dict[i])
